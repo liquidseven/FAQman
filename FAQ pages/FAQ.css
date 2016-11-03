@@ -1,0 +1,60 @@
+body{
+	background-color: #ECF0F1;
+	font-family: 'Roboto', sans-serif;
+}
+
+#orangeBox {
+	background-color: #F96E5B; 
+	height: 50px; 
+	width: 100%; 
+}
+
+.question{
+	
+	width:500px;
+	font-weight: 900;
+	font-style: italic;
+	
+}
+.answer{
+	color:#F96E5B;
+	
+}
+.heading{
+	color:black;
+	left : 0px;
+	font-weight:normal;
+	font-style: normal;
+
+}
+
+.addFAQ{
+	position:absolute;
+	top:0px;
+	left:558px;
+}
+
+.addA{
+	height:50px;
+	width: 400px;
+}
+
+#logo{
+	height: 40px;
+}
+
+.addQ{
+	width: 400px;
+}
+
+.askQ{
+	width: 400px;
+}
+
+body {
+	line-height: 1;
+}
+ul {
+	list-style: none;
+}
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Student Registration</Title>
+</head>
+<link href="signup-page.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<div id="orangeBox"></div>
+<div class="intro" style="padding: 25px;">
+  <h1> <img id="logo" src="http://i.imgur.com/tYSNXFo.png"/>Student Registration</h1>
+
+  <p>(filler text taken from homepage) Hey you've found your way to FAQMan. That's cool. Anyway, if you're a student, your instructor probably sent you here so that you can have all the answers. Not to your homework, though; just to the questions they've
+    determined were important enough -- or frequently- asked enough-- to be submitted to this spiffy open source-ish resource aggregator.
+  </p>
+  <center>
+    <h2>Welcome to FAQMan!</h2>
+    <br> First Name: <input type="text" name="firstname" value="Johnny">
+    <br><br>Last name:<input type="text" name="lastname" value="Dearest">
+    <br><br> Email:
+    <input type="text" name="email" value="Johnny.Dearest@uwm.edu">
+    <br><br>
+
+    <br> Classes(check all that you're in!):
+    <br>
+    <center>
+      <div class="containter">
+        <div id="course-list">
+          <h4 id="course-name">Anthropology</h4>
+        </div>
+      </div>
+    </center>
+    <input type="checkbox" name="anthro101" value="course">ANTHRO 101 <br>
+    <input type="checkbox" name="anthro102" value="course" checked="checked"> ANTHRO 102<br>
+    <input type="checkbox" name="anthro250" value="course">ANTHRO 250 <br>
+    <input type="checkbox" name="anthro351" value="course"> ANTHRO 351<br>
+    <br>
+    <center>
+      <div class="containter">
+        <div id="course-list">
+          <h4 id="course-name">Biology</h4>
+         </div>
+      </div>
+    </center>
+    <input type="checkbox" name="bio101" value="course">BIO 101 <br>
+    <input type="checkbox" name="bio102" value="course" checked="checked"> BIO 102<br>
+    <input type="checkbox" name="bio250" value="course">BIO 250 <br>
+    <input type="checkbox" name="bio431" value="course" checked="checked"> BIO 431<br>
+    <br>
+    <center>
+      <div class="containter">
+        <div id="course-list">
+          <h4>Computer Science</h4>
+         </div>
+      </div>
+    </center>
+    <input type="checkbox" name="compsci101" value="course">COMPSCI 101 <br>
+    <input type="checkbox" name="compsci250" value="course">COMPSCI 250 <br>
+    <input type="checkbox" name="compsci351" value="course" checked="checked">COMPSCI 351 <br>
+    <input type="checkbox" name="compsci361" value="course" checked="checked">COMPSCI 361 <br>
+    <br>
+    <center>
+      <div class="containter">
+        <div id="course-list">
+          <h4>Underwater Basket Weaving</h4>
+         </div>
+      </div>
+    </center>
+    <input type="checkbox" name="uwbw101" value="course">UWBW 101 <br>
+    <input type="checkbox" name="uwbw250" value="course">UWBW 2501 <br>
+    <input type="checkbox" name="uwbwult" value="course" checked="checked">UWBW ULTIMATE <br>
+
+    <center><button id="send-btn" class="button" type="submit">Signup</button></center>
+    </form>
+    </p>
+  </div>
+      
+</html>
