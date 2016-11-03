@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<style>
+
+.Details_Container {
+	
+	width: 500px
+}
+
+body{
+	background-color: #ECF0F1;
+	font-family: 'Roboto', sans-serif;
+}
+
+.Unanswered_Questions_Container {
+
+	position: absolute;
+	top:8px;
+	left:558px;
+	width: 500px;
+	height:545px;
+
+
+}
+
+.Classes_Container {
+	width: 500px;
+}
+
+.FAQ{
+	width: 500px;
+	}
+#logo{
+	height:40px;
+}
+	
+
+</style>
+</head>
+<body>
+
+<div class="Details_Container" style="padding: 25px;">
+
+<h1><img id="logo" src="http://i.imgur.com/tYSNXFo.png"/>Welcome, Faculty</h1>
+
+<details>
+<summary>Account Details</summary>
+<ul>
+<li>NAME: Patrick Professor</li>
+<li>USERNAME: PatProf01</li>
+<li>ID: 1047201</li>
+</ul>
+
+<h2>Change Password</h2>
+Old Password:<br>
+<input type="text" name="oldpassword">
+<br>
+New Password:<br>
+<input type="text" name="newpassword">
+<br>
+Confirm New Password:<br>
+<input type="text" name="confirmnewpassword">
+<br><br>
+<input type="submit">
+</details>
+</div>
+
+<div class="Classes_Container" style="padding: 25px;">
+
+<h3>Current Classes</h3>
+
+<ul>
+<li>CS101: Intro to Computers</li>
+<details>
+<summary>Class Details</summary>
+<ul>
+<li>Section 601</li>
+<li>Section 602</li>
+<li>Section 603</li>
+<li>TA: John Smith</li>
+</ul>
+</details>
+<li>CS102: Intermediate Computing</li>
+<details>
+<summary>Class Details</summary>
+<ul>
+<li>Section 701</li>
+<li>Section 702</li>
+<li>Section 703</li>
+<li>TA: Jane Smith</li>
+</ul>
+</details>
+<li>CS103: Quantum Computing</li>
+<details>
+<summary>Class Details</summary>
+<ul>
+<li>Section 801</li>
+<li>Section 802</li>
+<li>Section 803</li>
+<li>TA: Joe Smith</li>
+</ul>
+</details>
+</ul>
+</div>
+
+<div class = "FAQ" style="padding: 25px;">
+<h3>YOUR FAQ LISTINGS</h3>
+<div onclick="toggleList('cs-list')">
+Computer Science
+
+</div>
+<ul id="cs-list">
+	<li><A HREF = "CS101.html"> COMPSCI 101</A></li>
+	<li><A HREF = "CS102.html"> COMPSCI 102</A></li>
+	<li><A HREF = "CS103.html"> COMPSCI 103</A></li>
+</ul>
+</div>
+
+
+<div class="Unanswered_Questions_Container" style="padding: 25px;">
+<h4>Pending Student Questions</h4>
+<p> This is where an instructer will be able to select from a list of questions to answer.
+Each question will be linked to a student's account and when selected the instructer will
+be able to email that student</p>
+
+</div>
+
+<div class = "Add question to FAQs"
+
+</body>
+</html>
